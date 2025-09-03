@@ -1,0 +1,189 @@
+body{
+    background-color:#ffa88c ;
+margin: 0;
+ }
+ nav{
+   background-color:#ffcebf;
+  height: auto; 
+  bottom: 100px;
+  padding: 10px;
+justify-content: center;
+}
+
+nav a {
+    color: #e17a7a;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px 20px;
+    display: flex
+ color 0.3s, transform 0.3s;
+ margin: 70px;
+}
+
+
+  
+    a:hover {
+      text-decoration:
+    underline;
+      transform: translateY(-5px);
+      background-color: #4a0b0b;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+    }
+.logo{
+    height: 200px;
+    width: 300px;
+    border-radius: 60%;
+}
+.logo{
+    animation:rotar 8s linear infinite;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.main{
+    background-color: rgb(85, 8, 8);
+  width: auto;
+  margin: auto;
+  border-radius: initial;
+  height: auto;
+}
+.history{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 40px;
+background-color: #de5959;
+margin-top: 25px;
+width: auto;
+font-size: larger;
+}
+.bitacora{
+  text-align: center;
+  font-size: 70px;
+  font-size: xx-large;
+}
+.chino{
+  width: 293px;
+  height: 172px;
+  animation: aparecerDeLasSombras 2.5s ease-out forwards,
+  auraOscura 1.5s infinite alternate,
+  parpadeo 0.1s ease-in-out 3s 3;
+filter: brightness(0.5);
+}
+@keyframes aparecerDeLasSombras {
+0% {
+transform: scale(1.5) translateY(200px);
+opacity: 0;
+filter: brightness(0) blur(10px);
+}
+100% {
+transform: scale(1) translateY(0);
+opacity: 1;
+filter: brightness(1) blur(0);
+}
+}
+
+@keyframes auraOscura {
+0% {
+filter: drop-shadow(0 0 10px #330066);
+}
+100% {
+filter: drop-shadow(0 0 25px #6600cc);
+}
+}
+
+*{
+  font-family: Niagato;
+  font-size: large;
+}
+.historia{
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}
+.unico{
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}
+.contenido {
+  font-size: larger;
+  color: white;
+}
+.esperamos{
+  text-align: center;
+  font-size: xx-large;
+}
+.image{
+  height: 100vh;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 84, 84);
+  margin:15%;
+  opacity: 0;
+    animation: llegadaDelCielo 2s ease-out forwards,
+               auraSaiyan 1s infinite alternate 2s;
+    filter: drop-shadow(0 0 0 transparent);
+    
+}
+
+.chefsito{
+  width: 1500px;
+  height: 750px;
+  animation: aparecerDeLasSombras 2.5s ease-out forwards,
+             auraOscura 1.5s infinite alternate,
+             parpadeo 0.1s ease-in-out 3s 3;
+  filter: brightness(0.5);
+}
+
+
+footer {
+    width: 97%;
+    height: 25px;
+    text-align: left;
+    background-color: rgb(250, 230, 196);
+    padding: 20px;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+footer img {
+    height: 90%;
+    padding-left: 15%;
+}
+.chino{
+  width: 1000px;
+  height: 820px;
+}
+.medida{
+  color: white;
+}
+.titulo{
+  font-size: larger;
+  color: white;
+}
+.confe{
+  width: 800px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 84, 84);
+  margin:2.5%;
+
+}
